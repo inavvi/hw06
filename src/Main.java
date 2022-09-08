@@ -53,7 +53,7 @@ public class Main {
         for (var g = 1; g <= 12; g++) {
             totalSalary = totalSalary + totalSalary / 100;
             totalSalary = totalSalary + salary;
-            System.out.println("Месяц " + g + ", сумма накоплений равна " + totalSalary + " рубле");
+            System.out.println("Месяц " + g + ", сумма накоплений равна " + totalSalary + " рублей");
         }
     }
 }
